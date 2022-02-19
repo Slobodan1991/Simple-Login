@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 210, 210);
+    height: 100vh;
+}
+
+#login-container {
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+form label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+form div {
+    margin: 25px 0px;
+}
+
+#login {
+    width: inherit;
+    color: white;
+    background-color: royalblue;
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    margin-top: 8rem;
+}
+
+#login:hover {
+    background-color: blue;   
+    cursor: pointer;
+}
+.form1 {
+    position: relative;     
+}
+#check, #error {
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    display: none;
+    padding: 0.25rem;
+}
+
+#check1, #error1 {
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    display: none;
+    padding: 0.25rem;
+}
+
+.fa-check {
+    color:green;
+}
+
+.fa-times { 
+    color: red;
+}
+
+#message {
+    font-style: italic;
+    margin-top: 0.75rem;
+}

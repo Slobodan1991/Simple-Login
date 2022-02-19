@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/45a8328a28.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container">
+
+        <form>
+            <div class="form1">
+                <label for="username">Username:</label>
+                <input id="username" type="text" placeholder="Please enter username">
+                <i id="check" class="fas fa-check"></i>
+                <i id="error" class="fas fa-times"></i>
+            </div>
+
+            <div class="form1">
+                <label for="password">Password:</label>
+                <input id="password" type="password" placeholder="Please enter password">
+                <i id="check1" class="fas fa-check"></i>
+                <i id="error1" class="fas fa-times"></i>
+            </div>
+            
+            <input type="submit" value="Login" id="login"  onclick="validate()">
+        </form>
+        <div id="message"> 
+            <p>*please,enter username</p>
+            <p>*please,enter password</p>
+        </div>
+        </div>
+</body>
+</html>
